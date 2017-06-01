@@ -1,0 +1,147 @@
+body {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: earthorbitertitle;
+    src: url(../fonts/earthorbitertitle.ttf);
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue.otf);
+}
+
+@font-face {
+    font-family: GeosansLight;
+    src: url(../fonts/GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: Guardians;
+    src: url(../fonts/Guardians.ttf);
+}
+
+*.f-bebas {
+    font-family: BebasNeue;
+}
+
+*.f-earth {
+    font-family: earthorbitertitle;
+}
+
+*.f-geos {
+    font-family: GeosansLight;
+}
+
+*.f-guard {
+    font-family: Guardians;
+}
+
+*.float-right {
+    float: right;
+    position: absolute;
+    right: 0px;
+    margin-right: 70px;
+}
+
+.navbar .c-main,
+*.c-main {
+    color: #009ACD;
+}
+
+section.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar-top {
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    z-index: 99;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.navbar a.logo,
+.logo {
+    font-size: 20px;
+}
+
+.navbar a.logo:hover {
+    color: #fff;
+}
+
+.navbar .slash-logo {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: -25px;
+    background-color: #777;
+    width: 35px;
+    transform: rotate(-55deg);
+    /*border: solid 0.5px #999;*/
+}
+
+.navbar .navbar-text,
+.c-white {
+    color: #fff;
+}
+
+a.social {
+    margin: 0px 2px;
+    color: #fff;
+}
+
+.social:hover {
+    color: #009ACD;
+}
+
+.main-page {
+    min-height: 100vh;
+}
+
+.bg-full {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    position: relative;
+    top: 0px;
+    padding-top: 80px;
+}
+
+.home .box-right {
+    padding: 0px 15px;
+    padding-top: 40vh;
+}
+
+hr {
+    background-color: #777;
+}
+
+*.vertical {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: absolute;
+    right: -180px;
+    top: 30px;
+    font-size: 100px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.vertical .variant {
+    display: inline-block;
+    padding: 10px 0px;
+    z-index: 99;
+}
+
+.vertical .variant:hover {
+    color: #009ACD;
+}
